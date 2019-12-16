@@ -44,7 +44,7 @@
                 <!-- Apache 2 -->
                 <licenseUrlReplacement>
                   <regexp>https?://www.apache.org/licenses/LICENSE-2.0.txt</regexp>
-                  <replacement>file://${project.basedir}/src/licenses/local/apache20.txt</replacement>
+                  <replacement>${project.baseUri}/src/licenses/local/apache20.txt</replacement>
                 </licenseUrlReplacement>
               </licenseUrlReplacements>
             </configuration>
